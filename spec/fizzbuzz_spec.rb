@@ -1,7 +1,10 @@
 require 'fizzbuzz'
 
 describe 'fizzbuzz' do
-  it 'return fizz when passed a number' do
-    expect(fizzbuzz(1)).to eq 'fizz'
+  it 'returns fizz when passed a 3' do
+    expect(fizzbuzz(3)).to eq 'fizz'
+  end
+  it 'returns buzz when passed a 5' do
+    expect(fizzbuzz(5)).to eq 'buzz'
   end
 end
