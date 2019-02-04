@@ -1,3 +1,3 @@
-class Fizzbuzz
-
+def fizzbuzz(n)
+  return 'fizz'
 end
